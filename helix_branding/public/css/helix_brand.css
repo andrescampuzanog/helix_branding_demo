@@ -1,0 +1,4 @@
+/* Helix brand CSS — non-destructive, only colors. No layout/visibility rules. */
+:root {
+	--helix-primary: #0B5394;
+}

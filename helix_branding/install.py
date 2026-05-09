@@ -1,7 +1,7 @@
 import frappe
 
-LOGO = "/assets/helix_branding/images/helix-logo.svg"
-FAVICON = "/assets/helix_branding/images/helix-favicon.svg"
+LOGO = "/assets/helix_branding/images/helix-logo.png"
+FAVICON = "/assets/helix_branding/images/favicon.png"
 LOGIN_BG = "/assets/helix_branding/images/helix-login-bg.svg"
 BRAND_COLOR = "#0B5394"
 

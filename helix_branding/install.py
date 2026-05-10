@@ -12,6 +12,15 @@ def after_install():
 	Each step commits independently so a partial failure (e.g. theme schema variation
 	across Frappe builds) does not roll back the earlier writes.
 	"""
+	apply_branding()
+
+
+def after_migrate():
+	"""Re-apply persisted branding settings after app updates."""
+	apply_branding()
+
+
+def apply_branding():
 	_apply_website_settings()
 	frappe.db.commit()
 	_apply_navbar_settings()

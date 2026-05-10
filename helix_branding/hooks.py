@@ -22,3 +22,4 @@ website_context = {
 }
 
 after_install = "helix_branding.install.after_install"
+after_migrate = "helix_branding.install.after_migrate"
